@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-repo.git'
+                git url: 'https://github.com/rolniuq/nestjs-nats'
             }
         }
         stage('Build') {
